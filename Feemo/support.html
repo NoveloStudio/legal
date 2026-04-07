@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>サポート - Feemo</title>
+  <style>
+    :root {
+      --primary: #B5A8D8;
+      --primary-dark: #8A7BB5;
+      --text: #2F2D3A;
+      --sub: #7A788A;
+      --border: #E0DCF0;
+      --bg: #F8F7FC;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+        "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--text);
+      background: var(--bg);
+    }
+
+    header {
+      background: var(--primary);
+      color: white;
+      text-align: center;
+      padding: 40px 20px 32px;
+    }
+
+    header .app-icon {
+      font-size: 48px;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    header h1 {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      margin-bottom: 4px;
+    }
+
+    header .subtitle {
+      font-size: 13px;
+      opacity: 0.85;
+      font-weight: 400;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 20px 60px;
+    }
+
+    .intro-box {
+      background: white;
+      border-left: 4px solid var(--primary);
+      border-radius: 0 10px 10px 0;
+      padding: 16px 20px;
+      margin-bottom: 36px;
+      font-size: 14px;
+      color: var(--sub);
+      line-height: 1.7;
+    }
+
+    section {
+      margin-bottom: 36px;
+    }
+
+    h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--primary-dark);
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 8px;
+      margin-bottom: 16px;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    .faq-item {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-bottom: 12px;
+    }
+
+    .faq-q {
+      font-weight: 600;
+      font-size: 14px;
+      color: var(--primary-dark);
+      margin-bottom: 8px;
+    }
+
+    .faq-q::before {
+      content: "Q. ";
+    }
+
+    .faq-a {
+      font-size: 14px;
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .faq-a::before {
+      content: "A. ";
+      font-weight: 600;
+      color: var(--primary);
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--primary);
+      color: white;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 20px;
+      margin-right: 6px;
+      vertical-align: middle;
+    }
+
+    .contact-box {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px 24px;
+    }
+
+    .contact-box a {
+      color: var(--primary-dark);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .contact-box a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-note {
+      font-size: 13px;
+      color: var(--sub);
+      margin-top: 12px;
+    }
+
+    .link-list {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+
+    .link-list a {
+      display: inline-block;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px 16px;
+      font-size: 13px;
+      color: var(--primary-dark);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .link-list a:hover {
+      background: var(--bg);
+      border-color: var(--primary);
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      font-size: 13px;
+      color: var(--sub);
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <span class="app-icon">💧</span>
+  <h1>Feemo</h1>
+  <p class="subtitle">サポート / Support</p>
+</header>
+
+<div class="container">
+
+  <div class="intro-box">
+    Feemoはご利用いただきありがとうございます。ご不明な点やお困りのことがあれば、以下のFAQをご確認いただくか、お問い合わせ窓口までご連絡ください。
+  </div>
+
+  <!-- FAQ -->
+  <section>
+    <h2>よくあるご質問</h2>
+
+    <div class="faq-item">
+      <p class="faq-q">Feemoとはどんなアプリですか？</p>
+      <p class="faq-a">Feemoは「今の感情をひと粒だけ置く」感情共有SNSです。写真なし・長文なしで、感情を5秒で投稿できます。友達の今の空気感を軽く知ることができます。</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">ログインはどうすればできますか？</p>
+      <p class="faq-a">「Sign in with Apple」を使ってログインします。Apple IDがあればすぐに利用できます。メールアドレスや電話番号の登録は不要です。</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">投稿の公開範囲はどのように設定しますか？</p>
+      <p class="faq-a">投稿時に「親しい友達」「グループ」「自分だけ」の3つから公開範囲を選べます。「自分だけ」を選ぶと、自分のログとして記録されます。</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">グループはどうやって作りますか？</p>
+      <p class="faq-a">「グループ」タブ右上の「+」ボタンからグループを作成できます。グループ名を入力して作成後、メンバーを招待できます。</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">感情ログはどこで見られますか？</p>
+      <p class="faq-a">「マイページ」タブから感情ログを確認できます。過去の投稿が日付ごとにまとめられており、週間サマリーも確認できます。</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">プッシュ通知が届きません</p>
+      <p class="faq-a">iOSの「設定」→「通知」→「Feemo」から通知が許可されているか確認してください。また、アプリ内の「設定」→「通知」からも通知の有効・無効を切り替えられます。</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">投稿を削除したい</p>
+      <p class="faq-a">感情カードを長押しするか、カード右上のメニューから削除できます。削除できるのは自分の投稿のみです。</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">ニックネームを変更したい</p>
+      <p class="faq-a">「マイページ」→「設定」→「ニックネームを変更」から変更できます。</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">アカウントを削除したい</p>
+      <p class="faq-a">アカウントの削除を希望される場合は、下記お問い合わせ窓口までメールでご連絡ください。30日以内にデータを削除します。</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">ログアウトするには？</p>
+      <p class="faq-a">「マイページ」→「設定」→「ログアウト」からログアウトできます。</p>
+    </div>
+  </section>
+
+  <!-- お問い合わせ -->
+  <section>
+    <h2>お問い合わせ</h2>
+    <p>FAQで解決しない場合は、以下のメールアドレスまでお気軽にご連絡ください。3営業日以内を目安にご返答いたします。</p>
+    <div class="contact-box">
+      <p><span class="badge">運営者</span>Novelo Studio</p>
+      <p style="margin-top:8px;"><span class="badge">メール</span><a href="mailto:novelo.studio@outlook.jp">novelo.studio@outlook.jp</a></p>
+      <p class="contact-note">お問い合わせの際は、アプリ名「Feemo」とお使いのiOSバージョンをお知らせいただけるとスムーズに対応できます。</p>
+    </div>
+  </section>
+
+  <!-- 関連リンク -->
+  <section>
+    <h2>関連リンク</h2>
+    <div class="link-list">
+      <a href="./privacy_policy.html">プライバシーポリシー</a>
+      <a href="./terms_of_service.html">利用規約</a>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  &copy; 2026 Novelo Studio. All rights reserved.
+</footer>
+
+</body>
+</html>
